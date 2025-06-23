@@ -4,6 +4,8 @@ using U2U.BoardGames;
 
 namespace BoardGamesInventory.Controllers
 {
+
+
   public class GamesController : Controller
   {
     private readonly BoardGamesDb db;
