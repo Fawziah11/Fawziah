@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      CONFIGURATION: Release  # This is your custom variable
+
     steps:
       # checkout all sources from git
       - name: Checkout Sources
